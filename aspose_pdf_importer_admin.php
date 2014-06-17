@@ -70,7 +70,7 @@ function AsposePdfImporterAdminContent() {
 					<div title="Click to toggle" class="handlediv"><br /></div>
 					<h3 class="hndle"><?php echo __('Support / Manual', 'aspose-pdf-importer'); ?></h3>
 					<div class="inside">
-						<p style="margin:15px 0px;"><?php echo __('For any suggestion / query / issue / requirement, please feel free to drop an email to', 'aspose-pdf-importer'); ?> <a href="mailto:fahad.adeel@aspose.com?subject=Aspose Pdf Importer">fahad.adeel@aspose.com</a>.</p>
+						<p style="margin:15px 0px;"><?php echo __('For any suggestion / query / issue / requirement, please feel free to drop an email to', 'aspose-pdf-importer'); ?> <a href="mailto:marketplace@aspose.com?subject=WordPress Aspose Pdf Importer Plugin">marketplace@aspose.com</a>.</p>
 						<p style="margin:15px 0px;"><?php echo __('Get the', 'aspose-pdf-importer'); ?> <a href="#" target="_blank"><?php echo __('Manual here', 'aspose-pdf-importer'); ?></a>.</p>
 
 					</div>

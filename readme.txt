@@ -15,15 +15,20 @@ Aspose PDF Importer Plugin for WordPress allows developers to get/read contents 
 
 == Installation ==
 
-1. Download the plugin and extract it.
-2. Upload the directory '/aspose-pdf-importer/' to the '/wp-content/plugins/' directory.
-3. Activate the plugin through the 'Plugins' menu in WordPress.
-4. Click on 'Aspose Pdf Importer' link under Settings menu to access the admin section.
+1. Creating an account at http://cloud.aspose.com is a prerequisite for adding Aspose Key & ID in the settings. Please check the link to see how you can get app keys http://www.aspose.com/docs/display/rest/Creating+a+New+App+and+Getting+App+Key
+2. Download the plugin and extract it.
+3. Upload the directory '/aspose-pdf-importer/' to the '/wp-content/plugins/' directory.
+4. Activate the plugin through the 'Plugins' menu in WordPress.
+5. Click on 'Aspose Pdf Importer' link under Settings menu to access the admin section.
+6. See this blog post, for detailed manual 
+http://www.aspose.com/blogs/aspose-products/aspose-pdf-product-family/archive/2014/06/18/wordpress-import-from-pdf-using-aspose.pdf.html
 
 == Features ==
 
 1. Functionality of reading text from the pdf file. You can click on "Aspose Pdf Importer" button, it will popup a box, which will display two tabs "Select Local Files" & "Select Aspose Cloud Storage File". You can click on "Select Pdf file" button and select a pdf file from your local machine, after successful upload, you need to click on the "Insert PDF to editor" button. It will put the text from the selected pdf file to the editor.
 2. Functionality of reading text from the pdf file located at Aspose Cloud Storage. 
+3. See this blog post for detailed manual
+http://www.aspose.com/blogs/aspose-products/aspose-pdf-product-family/archive/2014/06/18/wordpress-import-from-pdf-using-aspose.pdf.html
 
 == Screenshots ==
 

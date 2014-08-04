@@ -155,6 +155,11 @@ function add_aspose_pdf_importer_button($context){
 add_action( 'admin_footer',  'aspose_pdf_add_inline_popup_content' );
 function aspose_pdf_add_inline_popup_content() {
     ?>
+	<style type="text/css">
+        .ui-widget-overlay {
+            z-index:100 !important;
+        }
+    </style>
     <div id="aspose_pdf_popup_container" title="Aspose Pdf Importer">
         <p>
         <?php

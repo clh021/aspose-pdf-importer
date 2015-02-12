@@ -215,13 +215,14 @@ function aspose_pdf_add_inline_popup_content() {
 <?php
 }
 
-add_filter('upload_mimes', 'aspose_pdf_importer_upload_mimes');
+
 
 if (check_upload_aspose_pdf_context('Aspose-Pdf-Importer-Select-File')) {
 
     add_filter('media_upload_tabs', 'aspose_pdf_importer_image_tabs', 10, 1);
     add_filter('attachment_fields_to_edit', 'aspose_pdf_importer_action_button', 20, 2);
     add_filter('media_send_to_editor', 'aspose_pdf_importer_file_selected', 10, 3);
+    add_filter('upload_mimes', 'aspose_pdf_importer_upload_mimes');
 }
 
 function aspose_pdf_importer_image_tabs($_default_tabs) {
